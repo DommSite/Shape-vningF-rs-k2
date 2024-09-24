@@ -19,7 +19,7 @@ namespace ShapeÖvningFörsök2
 
         public double Area()
         {
-            return (Math.Round(((radie + radie) * Math.PI*height)+(2* radie * radie * Math.PI), 3));
+            return (Math.Round((((radie + radie) * Math.PI)*height)+(2* radie * radie * Math.PI), 3));
         }
 
         public double Omkrets()

@@ -57,7 +57,34 @@ namespace ShapeÖvningFörsök2
 
                     break;
 
+                case "4":
+                    Console.WriteLine("Skriv radien på sfären");
+                    radie = int.Parse(Console.ReadLine());
+                    Sphere sphere = new Sphere(radie);
+                    Console.WriteLine("Arean på din sfär är: " + sphere.Area() + " areaenheter");
+                    Console.WriteLine("Omkretsen på din sfär är: " + sphere.Omkrets() + " längdenheter");
+                    Console.ReadKey();
+                    Console.Clear();
 
+                    break;
+
+                case "5":
+                    Console.WriteLine("Skriv radien på cylindern");
+                    radie = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Skriv höjden på cylindern");
+                    height = int.Parse(Console.ReadLine());
+                    Cylinder cylinder = new Cylinder(radie, height);
+                    Console.WriteLine("Arean på din sfär är: " + cylinder.Area() + " areaenheter");
+                    Console.WriteLine("Omkretsen på din sfär är: " + cylinder.Omkrets() + " längdenheter");
+                    Console.ReadKey();
+                    Console.Clear();
+
+                    break;
+
+
+                default:
+                    Console.WriteLine("Du valde inte en giltlig siffra");
+                    break;
 
             }
             return;

@@ -21,8 +21,10 @@ namespace shapeövning
                     case "1":
                         Console.WriteLine("Välj form:");
                         Console.WriteLine("1. Rektangel");
-                        Console.WriteLine("2. Triangel");
-                        System.Console.WriteLine("3. Cirkel");
+                        Console.WriteLine("2. Triangel (Rävinklig)");
+                        Console.WriteLine("3. Cirkel");
+                        Console.WriteLine("4. Sfär");
+                        Console.WriteLine("5. Cylinder");
                         string svar2 = Console.ReadLine();
                         Console.Clear();
                         try

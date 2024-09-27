@@ -8,15 +8,13 @@ namespace ShapeÖvningFörsök2
 {
     interface IShape
     {
-
-
-
         double Area();
-
 
         double Omkrets();
 
-
+        /*
+        double Volym();
+        */
 
     }
 }

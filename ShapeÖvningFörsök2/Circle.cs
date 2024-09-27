@@ -8,7 +8,7 @@ namespace ShapeÖvningFörsök2
 {
     public class Circle : IShape
     {
-        int radie;
+        protected int radie;
 
         public Circle(int radie)
         {
